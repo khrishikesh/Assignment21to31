@@ -1,0 +1,11 @@
+var arr = [];
+var a = prompt("Enter the 1st Number");
+a = parseInt(a);
+arr.push(a);
+var b = prompt("Enter the 2nd Number");
+b = parseInt(b);
+arr.push(b);
+var c = prompt("Enter the 3rd Number");
+c = parseInt(c);
+arr.push(c);
+alert(Math.max(...arr)+" is the greatest number in the array");
